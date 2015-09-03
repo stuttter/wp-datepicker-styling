@@ -21,7 +21,9 @@ WP Datepicker Styling is a base CSS file you can include with WordPress plugins 
 
 ### Is this a WordPress plugin?
 
-No. It's just a CSS file. You'll just want to include this in your plugin & enqueue it yourself, however you feel is best.
+No, it's just a CSS file.
+
+You'll want to include this in your plugin & enqueue it however you feel is best.
 
 ### What exactly is supported?
 
@@ -31,6 +33,7 @@ No. It's just a CSS file. You'll just want to include this in your plugin & enqu
 * Selected day (green)
 * Hover days (matched to scheme)
 * Disabled days (opacity 50%)
+* Naturally responsive (this could probably be improved)
 
 ### Where can I get support?
 
