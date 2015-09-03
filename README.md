@@ -2,7 +2,7 @@
 
 This is a CSS file you include with WordPress plugins or themes to make the jQuery UI Datepicker widget match WordPress's color schemes. It's goal is to make the jQuery UI Datepicker widget look as natural as possible inside of WordPress's dashboard.
 
-As new color schemes are introduced and old ones are updated, this file will be maintained to match them.
+As new color schemes are introduced and old ones are updated, this file will be maintained to match.
 
 #Screenshots
 
