@@ -1,6 +1,4 @@
-# WP Datepicker Styling
-
-Core styling for the jQuery UI Datepicker
+# jQuery UI Datepicker Styling for WordPress
 
 This is a CSS file you include with WordPress plugins or themes to make the jQuery UI Datepicker widget match WordPress's color schemes. It's goal is to make the jQuery UI Datepicker widget look as natural as possible inside of WordPress's dashboard.
 
