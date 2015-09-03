@@ -138,7 +138,22 @@
     opacity: 0.5;
 }
 
-/* All Color Schemes */
+/* Default Color Scheme */
+.ui-datepicker .ui-datepicker-header {
+    background: #00a0d2;
+}
+
+.ui-datepicker thead {
+    background: #32373c;
+}
+
+.ui-datepicker td .ui-state-hover {
+    background: #0073aa;
+	color: #fff;
+}
+
+/* WordPress Color Schemes */
+
 /* Fresh */
 .admin-color-fresh .ui-datepicker .ui-datepicker-header {
     background: #00a0d2;
@@ -153,7 +168,6 @@
 	color: #fff;
 }
 
-/* Other Datepicker Color Schemes */
 /* Blue */
 .admin-color-blue .ui-datepicker .ui-datepicker-header {
     background: #52accc;
@@ -260,3 +274,32 @@
     background: #e5e5e5;
 }
 
+/* bbPress Color Schemes */
+
+/* Evergreen */
+.admin-color-bbp-evergreen .ui-datepicker .ui-datepicker-header {
+    background: #56b274;
+}
+
+.admin-color-bbp-evergreen .ui-datepicker thead {
+    background: #36533f;
+}
+
+.admin-color-bbp-evergreen .ui-datepicker td .ui-state-hover {
+    background: #446950;
+	color: #fff;
+}
+
+/* Mint */
+.admin-color-bbp-mint .ui-datepicker .ui-datepicker-header {
+    background: #4ca26a;
+}
+
+.admin-color-bbp-mint .ui-datepicker thead {
+    background: #4f6d59;
+}
+
+.admin-color-bbp-mint .ui-datepicker td .ui-state-hover {
+    background: #5fb37c;
+	color: #fff;
+}
