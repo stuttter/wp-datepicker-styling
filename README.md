@@ -27,7 +27,7 @@ No, it's just a CSS file.
 
 You'll want to include this in your plugin & enqueue it however you feel is best.
 
-### How do I use it, then?
+### How will I use it, then?
 
 Probably something like:
 
@@ -47,6 +47,8 @@ function enqueue_my_calendar_styles() {
 }
 add_action( 'admin_head', 'enqueue_my_calendar_styles' );
 ```
+
+But you'll want to basically rename all of this to fit your needs, and if you're reading this, chances are you already know how to do this bit.
 
 ### What exactly is supported?
 
