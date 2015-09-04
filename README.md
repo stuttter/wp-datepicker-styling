@@ -6,16 +6,16 @@ As new color schemes are introduced and old ones are updated, this file will be 
 
 #Screenshots
 
-![Fresh](https://github.com/stuttter/wp-datepicker-styling/blob/master/fresh.png?raw=true "Fresh")
-![Light](https://github.com/stuttter/wp-datepicker-styling/blob/master/light.png?raw=true "Light")
-![Blue](https://github.com/stuttter/wp-datepicker-styling/blob/master/blue.png?raw=true "Blue")
-![Coffee](https://github.com/stuttter/wp-datepicker-styling/blob/master/coffee.png?raw=true "Coffee")
-![Ectoplasm](https://github.com/stuttter/wp-datepicker-styling/blob/master/ectoplasm.png?raw=true "Ectoplasm")
-![Midnight](https://github.com/stuttter/wp-datepicker-styling/blob/master/midnight.png?raw=true "Midnight")
-![Ocean](https://github.com/stuttter/wp-datepicker-styling/blob/master/ocean.png?raw=true "Ocean")
-![Sunrise](https://github.com/stuttter/wp-datepicker-styling/blob/master/sunrise.png?raw=true "Sunrise")
-![Evergreen](https://github.com/stuttter/wp-datepicker-styling/blob/master/evergreen.png?raw=true "Evergreen")
-![Mint](https://github.com/stuttter/wp-datepicker-styling/blob/master/mint.png?raw=true "Mint")
+![Fresh](https://github.com/stuttter/wp-datepicker-styling/blob/master/screenshots/fresh.png?raw=true "Fresh")
+![Light](https://github.com/stuttter/wp-datepicker-styling/blob/master/screenshots/light.png?raw=true "Light")
+![Blue](https://github.com/stuttter/wp-datepicker-styling/blob/master/screenshots/blue.png?raw=true "Blue")
+![Coffee](https://github.com/stuttter/wp-datepicker-styling/blob/master/screenshots/coffee.png?raw=true "Coffee")
+![Ectoplasm](https://github.com/stuttter/wp-datepicker-styling/blob/screenshots/master/ectoplasm.png?raw=true "Ectoplasm")
+![Midnight](https://github.com/stuttter/wp-datepicker-styling/blob/screenshots/master/midnight.png?raw=true "Midnight")
+![Ocean](https://github.com/stuttter/wp-datepicker-styling/blob/screenshots/master/ocean.png?raw=true "Ocean")
+![Sunrise](https://github.com/stuttter/wp-datepicker-styling/blob/screenshots/master/sunrise.png?raw=true "Sunrise")
+![Evergreen](https://github.com/stuttter/wp-datepicker-styling/blob/screenshots/master/evergreen.png?raw=true "Evergreen")
+![Mint](https://github.com/stuttter/wp-datepicker-styling/blob/master/screenshots/mint.png?raw=true "Mint")
 
 # FAQ
 
