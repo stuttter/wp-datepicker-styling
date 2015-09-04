@@ -4,6 +4,8 @@ This is a CSS file you include with WordPress plugins or themes to make the jQue
 
 As new color schemes are introduced and old ones are updated, this file will be maintained to match.
 
+It's currently used by the [WP Event Calendar](https://github.com/stuttter/wp-event-calendar).
+
 #Screenshots
 
 ![Fresh](https://github.com/stuttter/wp-datepicker-styling/blob/master/screenshots/fresh.png?raw=true "Fresh")
