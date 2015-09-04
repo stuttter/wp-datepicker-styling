@@ -27,6 +27,27 @@ No, it's just a CSS file.
 
 You'll want to include this in your plugin & enqueue it however you feel is best.
 
+### How do I use it, then?
+
+Probably something like:
+
+```
+/**
+ * Enqueue calendar styles
+ *
+ * @since 0.1.0
+ */
+function enqueue_my_calendar_styles() {
+
+	// Enqueue the datepicker JS
+	wp_enqueue_script( 'jquery-ui-datepicker' );
+
+	// Enqueue the datepicker CSS
+	wp_enqueue_style( 'jqueri-ui-datepicker', dirname( __FILE__ ) . 'datepicker.css', false, false, false );
+}
+add_action( 'admin_head', 'enqueue_my_calendar_styles' );
+```
+
 ### What exactly is supported?
 
 * All WordPress color schemes
