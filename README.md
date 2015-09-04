@@ -10,11 +10,11 @@ As new color schemes are introduced and old ones are updated, this file will be 
 ![Light](https://github.com/stuttter/wp-datepicker-styling/blob/master/screenshots/light.png?raw=true "Light")
 ![Blue](https://github.com/stuttter/wp-datepicker-styling/blob/master/screenshots/blue.png?raw=true "Blue")
 ![Coffee](https://github.com/stuttter/wp-datepicker-styling/blob/master/screenshots/coffee.png?raw=true "Coffee")
-![Ectoplasm](https://github.com/stuttter/wp-datepicker-styling/blob/screenshots/master/ectoplasm.png?raw=true "Ectoplasm")
-![Midnight](https://github.com/stuttter/wp-datepicker-styling/blob/screenshots/master/midnight.png?raw=true "Midnight")
-![Ocean](https://github.com/stuttter/wp-datepicker-styling/blob/screenshots/master/ocean.png?raw=true "Ocean")
-![Sunrise](https://github.com/stuttter/wp-datepicker-styling/blob/screenshots/master/sunrise.png?raw=true "Sunrise")
-![Evergreen](https://github.com/stuttter/wp-datepicker-styling/blob/screenshots/master/evergreen.png?raw=true "Evergreen")
+![Ectoplasm](https://github.com/stuttter/wp-datepicker-styling/blob/master/screenshots/ectoplasm.png?raw=true "Ectoplasm")
+![Midnight](https://github.com/stuttter/wp-datepicker-styling/blob/master/screenshots/midnight.png?raw=true "Midnight")
+![Ocean](https://github.com/stuttter/wp-datepicker-styling/blob/master/screenshots/ocean.png?raw=true "Ocean")
+![Sunrise](https://github.com/stuttter/wp-datepicker-styling/blob/master/screenshots/sunrise.png?raw=true "Sunrise")
+![Evergreen](https://github.com/stuttter/wp-datepicker-styling/blob/master/screenshots/evergreen.png?raw=true "Evergreen")
 ![Mint](https://github.com/stuttter/wp-datepicker-styling/blob/master/screenshots/mint.png?raw=true "Mint")
 
 # FAQ
