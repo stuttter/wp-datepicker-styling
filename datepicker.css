@@ -137,9 +137,13 @@
     border: transparent;
 }
 
+.ui-datepicker tr:first-of-type td {
+	border-top: 1px solid #f0f0f0;
+}
+
 .ui-datepicker td.ui-datepicker-week-end {
     background-color: #f4f4f4;
-    border: 1px solid #f4f4f4;
+    border: 1px solid #f0f0f0;
 }
 
 .ui-datepicker td.ui-datepicker-today {
