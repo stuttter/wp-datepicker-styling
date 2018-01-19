@@ -15,6 +15,14 @@
 	z-index: 1000 !important;
 }
 
+body.wp-admin:not(.rtl) .ui-datepicker {
+	margin-left: -1px;
+}
+
+body.wp-admin.rtl .ui-datepicker {
+	margin-right: -1px;
+}
+
 .ui-datepicker * {
     padding: 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
