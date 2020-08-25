@@ -304,13 +304,11 @@ body.wp-admin.rtl .ui-datepicker {
 
 /* Sunrise */
 .admin-color-sunrise .ui-datepicker .ui-widget-header,
-.admin-color-sunrise .ui-datepicker .ui-datepicker-header,
-.admin-color-sunrise .ui-datepicker .ui-datepicker-header .ui-state-hover {
+.admin-color-sunrise .ui-datepicker .ui-datepicker-header {
 	background: #cf4944;
 }
 
-.admin-color-sunrise .ui-datepicker th {
-	border-color: #be3631;
+.admin-color-sunrise .ui-datepicker thead {
 	background: #be3631;
 }
 
@@ -322,22 +320,20 @@ body.wp-admin.rtl .ui-datepicker {
 /* Light */
 .admin-color-light .ui-datepicker .ui-widget-header,
 .admin-color-light .ui-datepicker .ui-datepicker-header {
-	background: #e5e5e5;
-}
-
-.admin-color-light .ui-datepicker thead {
 	background: #888;
 }
 
-.admin-color-light .ui-datepicker .ui-datepicker-title,
-.admin-color-light .ui-datepicker td .ui-state-default,
-.admin-color-light .ui-datepicker .ui-datepicker-prev:before,
-.admin-color-light .ui-datepicker .ui-datepicker-next:before {
-	color: #555;
+.admin-color-light .ui-datepicker thead {
+	background: #555;
 }
 
 .admin-color-light .ui-datepicker td .ui-state-hover {
-	background: #e5e5e5;
+	background: #888;
+	color: #fff;
+}
+
+.admin-color-light .ui-datepicker td .ui-state-hover {
+	background: #888;
 }
 
 /* bbPress Color Schemes */
