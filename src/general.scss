@@ -24,7 +24,8 @@
 		border-collapse: collapse;
 	}
 
-	.ui-widget-header {
+	.ui-widget-header,
+	.ui-datepicker-header {
 		background-image: none;
 		border: none;
 		color: #fff;
@@ -32,11 +33,6 @@
 	}
 
 	.ui-datepicker-header {
-		background-image: none;
-		border: none;
-		color: #fff;
-		font-weight: normal;
-
 		.ui-state-hover {
 			background: transparent;
 			border-color: transparent;

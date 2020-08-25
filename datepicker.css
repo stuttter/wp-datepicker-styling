@@ -22,12 +22,7 @@
   border: none;
   border-collapse: collapse;
 }
-.ui-datepicker .ui-widget-header {
-  background-image: none;
-  border: none;
-  color: #fff;
-  font-weight: normal;
-}
+.ui-datepicker .ui-widget-header,
 .ui-datepicker .ui-datepicker-header {
   background-image: none;
   border: none;
