@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* Date Picker Default Styles */
 .ui-datepicker {
   padding: 0;
@@ -90,10 +89,10 @@
   height: 34px;
 }
 .ui-datepicker .ui-datepicker-prev:before {
-  content: "";
+  content: "\f341";
 }
 .ui-datepicker .ui-datepicker-next:before {
-  content: "";
+  content: "\f345";
 }
 .ui-datepicker .ui-datepicker-prev-hover:before,
 .ui-datepicker .ui-datepicker-next-hover:before {
@@ -305,6 +304,7 @@
   color: #fff;
 }
 
+/* Parent Input Alignment */
 body.wp-admin:not(.rtl) .ui-datepicker {
   margin-left: -1px;
 }
