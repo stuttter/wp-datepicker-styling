@@ -74,20 +74,19 @@
 		right: 0;
 	}
 
-	.ui-datepicker-next span {
-		display: none;
-	}
-
 	.ui-datepicker-prev {
-		span {
-			display: none;
-		}
-
 		float: left;
 	}
 
 	.ui-datepicker-next {
 		float: right;
+	}
+
+	.ui-datepicker-next,
+	.ui-datepicker-prev {
+		span {
+			display: none;
+		}
 	}
 
 	.ui-datepicker-prev:before,
