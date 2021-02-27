@@ -1,0 +1,23 @@
+{
+	"name": "wp-datepicker-styling",
+	"version": "2.0.0",
+	"description": "jQuery UI Datepicker CSS for WordPress.",
+	"license": "GPL-2.0-or-later",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/stuttter/wp-datepicker-styling"
+	},
+	"bugs": {
+		"url": "https://github.com/stuttter/wp-datepicker-styling/issues"
+	},
+	"homepage": "https://jjj.software",
+	"engines": {
+		"node": ">=8.0.0",
+		"npm": ">=6.0.0"
+	},
+	"dependencies": {
+		"postcss": "^8.2.6",
+		"postcss-cli": "^8.3.1",
+		"postcss-palettize-colors": "git+https://github.com/ryelle/postcss-palettize-colors.git"
+	}
+}
