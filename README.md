@@ -57,7 +57,7 @@ You'll want to include this in your plugin & enqueue it however you feel is best
 
 Probably something like:
 
-```
+```php
 /**
  * Enqueue calendar styles
  *
@@ -69,7 +69,7 @@ function enqueue_my_calendar_styles() {
 	wp_enqueue_script( 'jquery-ui-datepicker' );
 
 	// Enqueue the datepicker CSS
-	wp_enqueue_style( 'my-jquery-ui-datepicker', dirname( __FILE__ ) . '/datepicker.css', false, false, false );
+	wp_enqueue_style( 'my-jquery-ui-datepicker', dirname( __FILE__ ) . '/datepicker.css' );
 }
 add_action( 'admin_head', 'enqueue_my_calendar_styles' );
 ```
