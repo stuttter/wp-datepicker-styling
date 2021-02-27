@@ -8,18 +8,41 @@ It is updated for changes to WordPress 5.7 colors.
 
 It is used by the [Sugar Calendar](https://sugarcalendar.com) plugin for WordPress, if you'd like an example.
 
-#Screenshots
+# Screenshots
 
+The following screenshots show off what this CSS file looks like in the Sugar Calendar plugin.
+
+## Fresh
 ![Fresh](https://github.com/stuttter/wp-datepicker-styling/blob/master/screenshots/fresh.png?raw=true "Fresh")
+
+## Light
 ![Light](https://github.com/stuttter/wp-datepicker-styling/blob/master/screenshots/light.png?raw=true "Light")
+
+## Modern
 ![Modern](https://github.com/stuttter/wp-datepicker-styling/blob/master/screenshots/modern.png?raw=true "Modern")
+
+## Blue
 ![Blue](https://github.com/stuttter/wp-datepicker-styling/blob/master/screenshots/blue.png?raw=true "Blue")
+
+## Coffee
 ![Coffee](https://github.com/stuttter/wp-datepicker-styling/blob/master/screenshots/coffee.png?raw=true "Coffee")
+
+## Ectoplasm
 ![Ectoplasm](https://github.com/stuttter/wp-datepicker-styling/blob/master/screenshots/ectoplasm.png?raw=true "Ectoplasm")
+
+## Midnight
 ![Midnight](https://github.com/stuttter/wp-datepicker-styling/blob/master/screenshots/midnight.png?raw=true "Midnight")
+
+## Ocean
 ![Ocean](https://github.com/stuttter/wp-datepicker-styling/blob/master/screenshots/ocean.png?raw=true "Ocean")
+
+## Sunrise
 ![Sunrise](https://github.com/stuttter/wp-datepicker-styling/blob/master/screenshots/sunrise.png?raw=true "Sunrise")
+
+## Evergreen
 ![Evergreen](https://github.com/stuttter/wp-datepicker-styling/blob/master/screenshots/evergreen.png?raw=true "Evergreen")
+
+## Mint
 ![Mint](https://github.com/stuttter/wp-datepicker-styling/blob/master/screenshots/mint.png?raw=true "Mint")
 
 # FAQ
