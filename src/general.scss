@@ -15,10 +15,6 @@
 		padding: 0;
 		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 		border-radius: 0;
-		-webkit-user-select: none;
-		-khtml-user-select: none;
-		-moz-user-select: none;
-		-ms-user-select: none;
 		user-select: none;
 	}
 
@@ -87,7 +83,7 @@
 		float: left;
 
 		&:before {
-			content: '\\f341';
+			content: '\f341';
 		}
 	}
 
@@ -95,7 +91,7 @@
 		float: right;
 
 		&:before {
-			content: '\\f345';
+			content: '\f345';
 		}
 	}
 
@@ -173,7 +169,7 @@
 		}
 
 		&.ui-datepicker-current-day {
-			background: #bbdd88;
+			background: #b8e6bf;
 		}
 
 		&.ui-state-disabled {

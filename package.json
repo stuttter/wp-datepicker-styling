@@ -1,6 +1,6 @@
 {
 	"name": "wp-datepicker-styling",
-	"version": "2.0.0",
+	"version": "5.7.1",
 	"description": "jQuery UI Datepicker CSS for WordPress.",
 	"license": "GPL-2.0-or-later",
 	"repository": {
@@ -15,9 +15,29 @@
 		"node": ">=8.0.0",
 		"npm": ">=6.0.0"
 	},
+	"scripts": {
+		"dev": "postcss src/datepicker.scss --output datepicker.css --env dev --config src/postcss-configs/main; prettier datepicker.css --write;",
+		"prod": "postcss src/datepicker.scss --output datepicker.min.css --env prod  --config src/postcss-configs/main",
+		"remap": "postcss src/general.scss --replace --config src/postcss-configs/remap; postcss src/schemes/default.scss --replace --config src/postcss-configs/remap; postcss src/schemes/fresh.scss --replace --config src/postcss-configs/remap;"
+	},
+	"browserslist": [
+		"> 2%"
+	],
 	"dependencies": {
-		"postcss": "^8.2.6",
-		"postcss-cli": "^8.3.1",
 		"postcss-palettize-colors": "git+https://github.com/ryelle/postcss-palettize-colors.git"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.2.4",
+		"cssnano": "^4.1.10",
+		"postcss": "^8.2.6",
+		"postcss-advanced-variables": "^3.0.1",
+		"postcss-cli": "^8.3.1",
+		"postcss-custom-media": "^8.0.0",
+		"postcss-import": "^14.0.0",
+		"postcss-map-get": "^0.3.0",
+		"postcss-nested": "^5.0.4",
+		"postcss-scss": "^3.0.4",
+		"postcss-sort-media-queries": "^3.4.3",
+		"prettier": "2.2.1"
 	}
 }

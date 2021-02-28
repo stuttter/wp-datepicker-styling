@@ -13,12 +13,10 @@
 }
 .ui-datepicker * {
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   border-radius: 0;
   -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 .ui-datepicker .ui-datepicker-group {
@@ -57,7 +55,8 @@
   height: 34px;
   width: 34px;
 }
-.ui-datepicker .ui-state-hover.ui-datepicker-prev, .ui-datepicker .ui-state-hover.ui-datepicker-next {
+.ui-datepicker .ui-state-hover.ui-datepicker-prev,
+.ui-datepicker .ui-state-hover.ui-datepicker-next {
   border: none;
 }
 .ui-datepicker .ui-datepicker-prev,
@@ -103,7 +102,8 @@
 .ui-datepicker .ui-datepicker-next-hover:before {
   opacity: 0.7;
 }
-.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year {
   width: 33%;
 }
 .ui-datepicker thead {
@@ -130,7 +130,7 @@
   background-color: #f5e6ab;
 }
 .ui-datepicker td.ui-datepicker-current-day {
-  background: #bbdd88;
+  background: #b8e6bf;
 }
 .ui-datepicker td.ui-state-disabled {
   cursor: default;
@@ -157,7 +157,6 @@
 .ui-datepicker td .ui-state-default.ui-priority-secondary.ui-state-hover {
   opacity: 1;
 }
-
 /* WordPress Color Schemes */
 /* Default/Unknown */
 .ui-datepicker .ui-widget-header,
@@ -171,7 +170,6 @@
   background: #2271b1;
   color: #fff;
 }
-
 /* Fresh */
 body.admin-color-fresh .ui-datepicker .ui-widget-header,
 body.admin-color-fresh .ui-datepicker .ui-datepicker-header {
@@ -183,7 +181,6 @@ body.admin-color-fresh .ui-datepicker thead {
 body.admin-color-fresh .ui-datepicker td .ui-state-hover {
   background: #2271b1;
 }
-
 /* Blue */
 body.admin-color-blue .ui-datepicker .ui-widget-header,
 body.admin-color-blue .ui-datepicker .ui-datepicker-header {
@@ -195,7 +192,6 @@ body.admin-color-blue .ui-datepicker thead {
 body.admin-color-blue .ui-datepicker td .ui-state-hover {
   background: #096484;
 }
-
 /* Coffee */
 body.admin-color-coffee .ui-datepicker .ui-widget-header,
 body.admin-color-coffee .ui-datepicker .ui-datepicker-header {
@@ -207,7 +203,6 @@ body.admin-color-coffee .ui-datepicker thead {
 body.admin-color-coffee .ui-datepicker td .ui-state-hover {
   background: #c7a589;
 }
-
 /* Ectoplasm */
 body.admin-color-ectoplasm .ui-datepicker .ui-widget-header,
 body.admin-color-ectoplasm .ui-datepicker .ui-datepicker-header {
@@ -219,7 +214,6 @@ body.admin-color-ectoplasm .ui-datepicker thead {
 body.admin-color-ectoplasm .ui-datepicker td .ui-state-hover {
   background: #a3b745;
 }
-
 /* Midnight */
 body.admin-color-midnight .ui-datepicker .ui-widget-header,
 body.admin-color-midnight .ui-datepicker .ui-datepicker-header {
@@ -231,7 +225,6 @@ body.admin-color-midnight .ui-datepicker thead {
 body.admin-color-midnight .ui-datepicker td .ui-state-hover {
   background: #e14d43;
 }
-
 /* Modern */
 body.admin-color-modern .ui-datepicker .ui-widget-header,
 body.admin-color-modern .ui-datepicker .ui-datepicker-header {
@@ -243,7 +236,6 @@ body.admin-color-modern .ui-datepicker thead {
 body.admin-color-modern .ui-datepicker td .ui-state-hover {
   background: #3858e9;
 }
-
 /* Ocean */
 body.admin-color-ocean .ui-datepicker .ui-widget-header,
 body.admin-color-ocean .ui-datepicker .ui-datepicker-header {
@@ -255,7 +247,6 @@ body.admin-color-ocean .ui-datepicker thead {
 body.admin-color-ocean .ui-datepicker td .ui-state-hover {
   background: #9ebaa0;
 }
-
 /* Sunrise */
 body.admin-color-sunrise .ui-datepicker .ui-widget-header,
 body.admin-color-sunrise .ui-datepicker .ui-datepicker-header {
@@ -267,7 +258,6 @@ body.admin-color-sunrise .ui-datepicker thead {
 body.admin-color-sunrise .ui-datepicker td .ui-state-hover {
   background: #dd823b;
 }
-
 /* Light */
 body.admin-color-light .ui-datepicker .ui-widget-header,
 body.admin-color-light .ui-datepicker .ui-datepicker-header {
@@ -279,7 +269,6 @@ body.admin-color-light .ui-datepicker thead {
 body.admin-color-light .ui-datepicker td .ui-state-hover {
   background: #04a4cc;
 }
-
 /* bbPress Color Schemes */
 /* Evergreen */
 body.admin-color-bbp-evergreen .ui-datepicker .ui-widget-header,
@@ -292,7 +281,6 @@ body.admin-color-bbp-evergreen .ui-datepicker thead {
 body.admin-color-bbp-evergreen .ui-datepicker td .ui-state-hover {
   background: #446950;
 }
-
 /* Mint */
 body.admin-color-bbp-mint .ui-datepicker .ui-widget-header,
 body.admin-color-bbp-mint .ui-datepicker .ui-datepicker-header {
@@ -304,7 +292,6 @@ body.admin-color-bbp-mint .ui-datepicker thead {
 body.admin-color-bbp-mint .ui-datepicker td .ui-state-hover {
   background: #5fb37c;
 }
-
 /* Parent Input Alignment */
 body.wp-admin:not(.rtl) .ui-datepicker {
   margin-left: -1px;

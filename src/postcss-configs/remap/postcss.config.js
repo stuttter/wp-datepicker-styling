@@ -63,11 +63,11 @@ const paletteOptions = {
 		"green-80": "#00450c",
 		"green-90": "#003008",
 		"green-100": "001c05",
-	},
+	}
 };
 
 module.exports = {
 	plugins: [
-		require( "postcss-palettize-colors" )( paletteOptions )
-	],
+		require('postcss-palettize-colors')( paletteOptions )
+	]
 };
