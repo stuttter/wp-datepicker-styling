@@ -1,15 +1,19 @@
 /* Ectoplasm */
-.admin-color-ectoplasm .ui-datepicker {
-	.ui-widget-header,
-	.ui-datepicker-header {
-		background: #523f6d;
-	}
+body {
+	&.admin-color-ectoplasm {
+		.ui-datepicker {
+			.ui-widget-header,
+			.ui-datepicker-header {
+				background: #523f6d;
+			}
 
-	thead {
-		background: #413256;
-	}
+			thead {
+				background: #413256;
+			}
 
-	td .ui-state-hover {
-		background: #a3b745;
+			td .ui-state-hover {
+				background: #a3b745;
+			}
+		}
 	}
 }

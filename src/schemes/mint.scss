@@ -1,15 +1,19 @@
 /* Mint */
-.admin-color-bbp-mint .ui-datepicker {
-	.ui-widget-header,
-	.ui-datepicker-header {
-		background: #4ca26a;
-	}
+body {
+	&.admin-color-bbp-mint {
+		.ui-datepicker {
+			.ui-widget-header,
+			.ui-datepicker-header {
+				background: #4ca26a;
+			}
 
-	thead {
-		background: #4f6d59;
-	}
+			thead {
+				background: #4f6d59;
+			}
 
-	td .ui-state-hover {
-		background: #5fb37c;
+			td .ui-state-hover {
+				background: #5fb37c;
+			}
+		}
 	}
 }

@@ -1,15 +1,19 @@
 /* Blue */
-.admin-color-blue .ui-datepicker {
-	.ui-widget-header,
-	.ui-datepicker-header {
-		background: #096484;
-	}
+body {
+	&.admin-color-blue {
+		.ui-datepicker {
+			.ui-widget-header,
+			.ui-datepicker-header {
+				background: #096484;
+			}
 
-	thead {
-		background: #4796b3;
-	}
+			thead {
+				background: #4796b3;
+			}
 
-	td .ui-state-hover {
-		background: #096484;
+			td .ui-state-hover {
+				background: #096484;
+			}
+		}
 	}
 }

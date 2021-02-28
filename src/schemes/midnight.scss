@@ -1,15 +1,19 @@
 /* Midnight */
-.admin-color-midnight .ui-datepicker {
-	.ui-widget-header,
-	.ui-datepicker-header {
-		background: #363b3f;
-	}
+body {
+	&.admin-color-midnight {
+		.ui-datepicker {
+			.ui-widget-header,
+			.ui-datepicker-header {
+				background: #363b3f;
+			}
 
-	thead {
-		background: #26292c;
-	}
+			thead {
+				background: #26292c;
+			}
 
-	td .ui-state-hover {
-		background: #e14d43;
+			td .ui-state-hover {
+				background: #e14d43;
+			}
+		}
 	}
 }

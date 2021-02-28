@@ -1,15 +1,19 @@
 /* Sunrise */
-.admin-color-sunrise .ui-datepicker {
-	.ui-widget-header,
-	.ui-datepicker-header {
-		background: #e65054;
-	}
+body {
+	&.admin-color-sunrise {
+		.ui-datepicker {
+			.ui-widget-header,
+			.ui-datepicker-header {
+				background: #e65054;
+			}
 
-	thead {
-		background: #b32d2e;
-	}
+			thead {
+				background: #b32d2e;
+			}
 
-	td .ui-state-hover {
-		background: #dd823b;
+			td .ui-state-hover {
+				background: #dd823b;
+			}
+		}
 	}
 }

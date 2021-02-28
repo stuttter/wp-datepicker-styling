@@ -1,15 +1,19 @@
 /* Ocean */
-.admin-color-ocean .ui-datepicker {
-	.ui-widget-header,
-	.ui-datepicker-header {
-		background: #738e96;
-	}
+body {
+	&.admin-color-ocean {
+		.ui-datepicker {
+			.ui-widget-header,
+			.ui-datepicker-header {
+				background: #738e96;
+			}
 
-	thead {
-		background: #627c83;
-	}
+			thead {
+				background: #627c83;
+			}
 
-	td .ui-state-hover {
-		background: #9ebaa0;
+			td .ui-state-hover {
+				background: #9ebaa0;
+			}
+		}
 	}
 }

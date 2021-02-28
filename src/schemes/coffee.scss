@@ -1,15 +1,19 @@
 /* Coffee */
-.admin-color-coffee .ui-datepicker {
-	.ui-widget-header,
-	.ui-datepicker-header {
-		background: #59524c;
-	}
+body {
+	&.admin-color-coffee {
+		.ui-datepicker {
+			.ui-widget-header,
+			.ui-datepicker-header {
+				background: #59524c;
+			}
 
-	thead {
-		background: #46403c;
-	}
+			thead {
+				background: #46403c;
+			}
 
-	td .ui-state-hover {
-		background: #c7a589;
+			td .ui-state-hover {
+				background: #c7a589;
+			}
+		}
 	}
 }

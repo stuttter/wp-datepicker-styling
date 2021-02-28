@@ -1,15 +1,19 @@
 /* Evergreen */
-.admin-color-bbp-evergreen .ui-datepicker {
-	.ui-widget-header,
-	.ui-datepicker-header {
-		background: #56b274;
-	}
+body {
+	&.admin-color-bbp-evergreen {
+		.ui-datepicker {
+			.ui-widget-header,
+			.ui-datepicker-header {
+				background: #56b274;
+			}
 
-	thead {
-		background: #36533f;
-	}
+			thead {
+				background: #36533f;
+			}
 
-	td .ui-state-hover {
-		background: #446950;
+			td .ui-state-hover {
+				background: #446950;
+			}
+		}
 	}
 }
