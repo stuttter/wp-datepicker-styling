@@ -1,19 +1,26 @@
+const postcssNested = require('postcss-nested').default;
+
 module.exports = cfg => {
 
-	const
-		dev  = cfg.env          === 'dev',
-		scss = cfg.file.extname === '.scss';
+	const dev = cfg.env === 'dev';
 
 	return {
-		map:     dev  ? { inline: false } : false,
-		parser:  scss ? 'postcss-scss'    : false,
+		map: dev ? { inline: false } : false,
 		plugins: [
-			require('postcss-advanced-variables')(),
-			require('postcss-map-get')(),
-			require('postcss-nested')(),
+			require('postcss-import')(),
+			postcssNested(),
 			require('postcss-sort-media-queries')(),
 			require('autoprefixer')(),
-			dev ? null : require('cssnano')()
+			dev ? null : require('cssnano')({
+				preset: ['default', {
+					colormin: false,
+					cssDeclarationSorter: false,
+					mergeRules: false,
+					minifySelectors: {
+						convertToIs: false
+					}
+				}]
+			})
 		]
 	};
 };

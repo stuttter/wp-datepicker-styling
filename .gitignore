@@ -37,7 +37,10 @@ tmp/
 tests/clover.xml
 
 # Node
-node_modules
+.DS_Store
+/node_modules/
+/npm-debug.log
+/*.tgz
 pnpm-lock.yaml
 
 # Vendor

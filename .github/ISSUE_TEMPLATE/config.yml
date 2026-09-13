@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Usage questions
+    url: https://github.com/stuttter/wp-datepicker-styling/discussions
+    about: Ask implementation and usage questions in GitHub Discussions.
+  - name: Security report
+    url: https://github.com/stuttter/wp-datepicker-styling/security/advisories/new
+    about: Report a suspected vulnerability privately.

@@ -1,10 +1,10 @@
 # jQuery UI Datepicker CSS for WordPress
 
-This is a CSS file you include with WordPress plugins or themes to make the jQuery UI Datepicker widget match WordPress color schemes. It's goal is to make the jQuery UI Datepicker widget look as natural as possible inside of the WordPress dashboard.
+This is a CSS file you include with WordPress plugins or themes to make the jQuery UI Datepicker widget match WordPress color schemes. Its goal is to make the jQuery UI Datepicker widget look as natural as possible inside the WordPress administration area.
 
 As new color schemes are introduced and old ones are updated, this file will be maintained to match.
 
-It is updated for changes to WordPress 5.7 colors.
+The included schemes track the administration colors introduced through WordPress 5.7.
 
 It is used by the [Sugar Calendar](https://sugarcalendar.com) plugin for WordPress, if you'd like an example.
 
@@ -69,7 +69,7 @@ function enqueue_my_calendar_styles() {
 	wp_enqueue_script( 'jquery-ui-datepicker' );
 
 	// Enqueue the datepicker CSS
-	wp_enqueue_style( 'my-jquery-ui-datepicker', dirname( __FILE__ ) . '/datepicker.css' );
+	wp_enqueue_style( 'my-jquery-ui-datepicker', plugins_url( 'datepicker.css', __FILE__ ) );
 }
 add_action( 'admin_head', 'enqueue_my_calendar_styles' );
 ```
@@ -89,7 +89,7 @@ But you'll want to basically rename all of this to fit your needs, and if you're
 
 ### Where can I get support?
 
-https://github.com/stuttter/wp-datepicker-styling/discussions
+[GitHub Discussions](https://github.com/stuttter/wp-datepicker-styling/discussions)
 
 ### Can I contribute?
 

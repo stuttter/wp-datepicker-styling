@@ -1,0 +1,40 @@
+name: Bug report
+description: Report a reproducible styling problem.
+title: "Bug: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: Report security vulnerabilities privately through GitHub Security Advisories.
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened?
+      description: Describe the observed styling and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: Include the smallest datepicker markup and state that demonstrates the problem.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: WP Datepicker Styling version
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: WordPress version, color scheme, and browser
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Include inline, multiple-month, right-to-left, and responsive details where relevant. Never include credentials or personal data.
