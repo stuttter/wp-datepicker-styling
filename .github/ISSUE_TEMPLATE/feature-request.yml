@@ -1,0 +1,38 @@
+name: Feature request
+description: Propose a focused styling improvement.
+title: "Enhancement: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem should this solve?
+      description: Describe the user-facing need before proposing an implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: Describe the observable styling and compatibility expectations.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Affected area
+      options:
+        - Date state
+        - WordPress administration color scheme
+        - bbPress administration color scheme
+        - Inline or multiple-month layout
+        - Responsive or right-to-left layout
+        - Build or packaging
+        - Unsure
+    validations:
+      required: true
